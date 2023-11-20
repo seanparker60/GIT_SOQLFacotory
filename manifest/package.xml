@@ -1,36 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
-        <name>ApexClass</name>
+        
+		<members>Order_AssetRenewalLineItemQueueable</members>
+		<members>Order_B2BOrderInvocable</members>
+		<members>Order_OrdeItemFromOrderTypeChange</members>
+		<members>Order_OrdeItemFromOrderTypeChange_test</members>
+		<members>Order_OrderInsertQueueable</members>
+		<members>Order_OrderItemTriggerQueueable</members>
+		<members>Order_OrderItemTriggerQueueable_test</members>
+		<members>Order_OrderLineCountManager_test</members>
+		<members>Order_OrderUtilityQueueable</members>
+		<members>Order_OrderandOrdeItemHandler</members>
+		<members>Order_OrderandOrdeItemHandler_test</members>
+		<members>Order_ProductCalculationDates_test</members>
+		<members>Order_ProductSelectController</members>
+		<members>Order_RelatedOrderProcess</members>
+		<members>Order_UpdateOrderListPriceDisAll_test</members>
+		<members>Order_UpdateOrderListPriceDiscountAll</members>
+		<name>ApexClass</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
+   
     <version>58.0</version>
 </Package>
